@@ -116,8 +116,29 @@ hr{
 /* media quarise  */
 
 /* mobile device  */
-@media only and screen and (max-width:800px){
+@media screen and (max-width:800px) {
+    .container{
+        width: 100%;
+    }
     .players{
-        background-color: red;
+        background-color: #562eff;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        color:white;
+
+    }
+    .blogs{
+        width:100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        background-color: tomato;
+        color:white;
+        
+
+    }
+    .courses{
+        width:100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
     }
 }
