@@ -84,4 +84,40 @@ hr{
     font-size: 16px;
     color: #562eff;
 }
+/* courses style  */
 
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+}
+
+.course .course-banner img{
+    width: 224px;
+    height: 104px;
+}
+.course-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fa-star.fill{
+    color:#ffc014;
+}
+.fa-star.empty{
+    color:#aeaeae;
+
+}
+
+
+
+
+/* media quarise  */
+
+/* mobile device  */
+@media only and screen and (max-width:800px){
+    .players{
+        background-color: red;
+    }
+}
